@@ -1,0 +1,14 @@
+
+.summary-details {
+  margin-top: 2rem;
+}
+
+.summary-item {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--color-cool-gray);
+}
+
+.summary-item span {
+  color: var(--color-purplish-blue);
+}

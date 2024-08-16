@@ -1,0 +1,22 @@
+
+.plan-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  background-color: var(--color-light-blue);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-weight: 700;
+  color: var(--color-marine-blue);
+  border: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.plan.selected {
+  border-color: var(--color-purplish-blue);
+}

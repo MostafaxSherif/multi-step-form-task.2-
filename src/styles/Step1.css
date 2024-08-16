@@ -1,0 +1,46 @@
+
+.form-container {
+  background-color: var(--color-magnolia);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--color-marine-blue);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.description {
+  color: var(--color-cool-gray);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--color-marine-blue);
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color-light-gray);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--color-marine-blue);
+}
+
+input::placeholder {
+  color: var(--color-cool-gray);
+}

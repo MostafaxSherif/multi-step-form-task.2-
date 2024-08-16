@@ -1,0 +1,21 @@
+
+.addon-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.addon {
+  background-color: var(--color-light-blue);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-marine-blue);
+  border: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.addon.selected {
+  border-color: var(--color-purplish-blue);
+}
